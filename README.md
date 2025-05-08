@@ -3,8 +3,6 @@
 
 **Sanjeevani** is a smart, web-based healthcare management platform designed to simplify medical services for patients, healthcare providers, and administrators. It integrates intelligent tools like disease prediction, personalized diet planning, electronic health records (EHR), and doctor search to provide quick, reliable, and user-friendly health assistance.
 
----
-
 ## Features
 
 - **Disease Prediction**  
@@ -19,8 +17,6 @@
 - **Electronic Health Records (EHR)**  
   Securely store, manage, and access medical reports in a structured, encrypted format to ensure privacy and ease of use.
 
----
-
 ## Tech Stack
 
 - **Frontend**: HTML, CSS  
@@ -28,27 +24,6 @@
 - **Database**: MySQL  
 - **AI/ML Tools**: Document AI, Cosine Similarity (for collaborative filtering)  
 - **Hosting Protocol**: HTTP/HTTPS  
-
----
-
-## System Highlights
-
-- **AI Integration**: CBC report interpretation using ML-based diagnostic tools.
-- **Collaborative Filtering**: Personalized diet and doctor recommendations based on similar user profiles.
-- **Responsive UI**: Clean, consistent, and accessible design across all devices.
-- **Security**: Encrypted storage and strict access control for EHR data.
-
----
-
-## Testing Overview
-
-Thorough testing was conducted to ensure stability and correctness:
-- Functional Testing (Login, Uploads, Search, Plans)
-- UI & Responsiveness Testing
-- Database Validation (MySQL)
-- Error Handling & Validation Messages
-
----
 
 ## Installation Guide
 
@@ -58,10 +33,6 @@ Thorough testing was conducted to ensure stability and correctness:
    ```bash
    git clone https://github.com/your-repo/sanjeevani.git
    ```
-
-
-   
-
 2. Install dependencies  
    ```bash
    pip install -r requirements.txt
@@ -74,15 +45,13 @@ Thorough testing was conducted to ensure stability and correctness:
    flask run
    ```
 
----
+UI Interfaces:
+![image](https://github.com/user-attachments/assets/33ff3099-d5f3-4674-88a8-4332a49c0070)
+![image](https://github.com/user-attachments/assets/546b9e6a-37fa-4db9-8e70-b01ff196871e)
+![image](https://github.com/user-attachments/assets/5614c8c7-a3ba-4851-bde2-a86f41165f2c)
+![image](https://github.com/user-attachments/assets/36ea8843-a75e-4fe2-be0d-3c9f94057507)
 
-## Sample Modules
 
-- `Login/Register` forms
-- `Upload CBC Report`
-- `Find Doctor by Location/Specialization`
-- `View/Manage Diet Plan`
-- `Store/View Medical Reports`
 
----
+
 
